@@ -1,5 +1,6 @@
 body {
 	background-color: #130052;
+	margin: 0;
 }
 
 #container {
@@ -7,6 +8,62 @@ body {
 }
 
 #background-image {
-	width: 40rem;
-	height: 60rem;
+	width: 44rem;
+	height: 66rem;
+}
+
+#side-bar {
+	display: flex;
+	flex-direction: column;
+}
+
+#image-overlay {
+	position: absolute;
+	display: flex;
+	background-color: black;
+	width: 44rem;
+	height: 15rem;
+	margin-top: 10rem;
+	opacity: 50%;
+}
+
+#odin-logo {
+	width: 7.5rem;
+	height: 10rem;
+}
+
+#credit {
+	position: absolute;
+}
+
+#main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+#section-info {
+	background-color: azure;
+}
+
+#section-form {
+	background-color: aquamarine;
+}
+
+#section-action {
+	background-color: beige;
+}
+
+.main-content-section {
+	display: flex;
+	flex-direction: column;
+	height: 22rem;
+}
+
+.form-row {
+	display: flex;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
 }
