@@ -8,8 +8,8 @@ body {
 }
 
 #background-image {
-	width: 44rem;
-	height: 66rem;
+	width: 70vh;
+	height: 100vh;
 }
 
 #side-bar {
@@ -21,7 +21,7 @@ body {
 	position: absolute;
 	display: flex;
 	background-color: black;
-	width: 44rem;
+	width: 70vh;
 	height: 15rem;
 	margin-top: 10rem;
 	opacity: 50%;
@@ -42,11 +42,17 @@ body {
 }
 
 #section-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: end;
 	background-color: azure;
+	font-size: 2rem;
 }
 
 #section-form {
 	background-color: aquamarine;
+	height: 34vh !important;
 }
 
 #section-action {
@@ -56,7 +62,8 @@ body {
 .main-content-section {
 	display: flex;
 	flex-direction: column;
-	height: 22rem;
+	height: 33vh;
+	padding-left: 2.5rem;
 }
 
 .form-row {
