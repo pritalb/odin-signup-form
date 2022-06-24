@@ -21,65 +21,67 @@
 
 		<div id="main-content">
 			<div class="main-content-section" id="section-info">
-				<p>
-					This is not a real online service! You know you need something
-					like this in your life to help you realize your deepest dreams.
-					Sign up now to get started.
-				</p>
-				<p>
-					You <em>know</em> you want to.
-				</p>
+				<div>
+					<p>
+						This is not a real online service! You know you need something
+						like this in your life to help you realize your deepest dreams.
+						Sign up now to get started.
+					</p>
+					<p>
+						You <em>know</em> you want to.
+					</p>
+				</div>
 			</div>
 
 			<div class="main-content-section" id="section-form">
-				<div> Let's do this! </div>
+				<div id="form-heading"> Let's do this! </div>
 
-				<form>
+				<div id="form">
 					<div class="form-row">
 						<div class="form-field">
 							<label for="first-name"> First Name </label>
-							<input type="text" name="first-name">
+							<input type="text" name="first-name" class="input-field">
 						</div>
 
 						<div class="form-field">
 							<label for="last-name"> Last Name </label>
-							<input type="text" name="last-name">
+							<input type="text" name="last-name" class="input-field">
 						</div>
 					</div>
 
 					<div class="form-row">
 						<div class="form-field">
 							<label for="email"> Email </label>
-							<input type="email">
+							<input type="email" class="input-field">
 						</div>
 
 						<div class="form-field">
 							<label for="phone-number"> Phone Number </label>
-							<input type="number">
+							<input type="number" class="input-field">
 						</div>
 					</div>
 
 					<div class="form-row">
 						<div class="form-field">
 							<label for="password"> Password </label>
-							<input type="password" name="password">
+							<input type="password" name="password" class="input-field">
 							<div id="password-error"> *Passwords do not match </div>
 						</div>
 
 						<div class="form-field">
 							<label for="password-confirm"> Confirm Password </label>
-							<input type="password" name="password-confirm">
+							<input type="password" name="password-confirm" class="input-field">
 						</div>
 					</div>
-				</form>
+				</div>
 			</div>
 
 			<div class="main-content-section" id="section-action">
-				<div>
+				<div id="account-create-btn">
 					<button> Create Account </button>
 				</div>
-				<div>
-					Already have an account? <a href="#"> Log in </a>
+				<div id="sign-up-msg">
+					Already have an account? <a href="#" id="log-in-btn"> Log in </a>
 				</div>
 			</div>
 		</div>
